@@ -1,7 +1,29 @@
-
+/*variables*/
+:root {
+    --font:Verdana, Geneva, Tahoma, sans-serif;
+    --tColor:rgb(58, 68, 84);
+}
+/*general website style for bg and borders*/
 * {
-    background-color:rgb(142, 193, 237);
+    background-color:rgb(194, 178, 180);
     border-style: groove;
-    border-color: rgb(227, 193, 72);
+    border-color: rgb(107, 78, 113);
     margin: 15px;
+    text-indent: 10px;
+}
+/*list styling*/
+li {
+    font-family: var(--font);
+    color: var(--tColor);
+}
+/*header type styling*/
+h1, h3 {
+    font-style:normal;
+    font-family: var(--font);
+    color: rgb(83, 104, 126);
+}
+/*paragraph styling*/
+main section div p {
+    font-style:oblique;
+    color: var(--tColor);
 }
