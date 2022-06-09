@@ -12,6 +12,7 @@ body {
     border-color: rgb(107, 78, 113);
     border-radius:20px;
     padding: 20px;
+    margin: 50px;
 }
 /*header type styling*/
 header, h3, h1 {
