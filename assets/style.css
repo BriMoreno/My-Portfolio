@@ -6,34 +6,48 @@
 /*general website style for bg and borders*/
 * {
     background-color:rgb(194, 178, 180);
+}
+body {
     border-style: dashed;
     border-color: rgb(107, 78, 113);
     border-radius:20px;
-    margin: 10px;
-    padding: 15px;
-    text-indent: 10px;
+    padding: 20px;
 }
-
 /*header type styling*/
 header, h3, h1 {
     font-family: var(--font);
     color: rgb(83, 104, 126);
-    
-}
-/*paragraph styling*/
-.removeBorder {
-    border:none;
     background-color: aliceblue;
 }
-main section div p {
+/*making seperation between header, footer, and body*/
+.addSeperation {
+    background-color: aliceblue;
+    border-style: dashed;
+    border-color: rgb(107, 78, 113);
+    border-radius:20px;
+    padding: 20px;
+    border-width: 2px;
+}
+/*paragraph styling*/
+section div p {
     font-style:oblique;
     color: var(--tColor);
-    border:none;
     font-size:large;
-   
+    background-color: aliceblue;
 }
-
+/*for title*/
 h1{
     text-align: left;
     font-size:xx-large;
+    background-color: aliceblue;
+}
+
+h5, ul,li{
+    background-color: aliceblue;
+    font-family: var(--font);
+    color: var(--tColor);
+    font-style: oblique;
+    text-align: center;
+    list-style: none;
+    font-size: small;
 }
