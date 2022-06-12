@@ -2,6 +2,9 @@
 :root {
     --font:Verdana, Geneva, Tahoma, sans-serif;
     --tColor:rgb(58, 68, 84);
+    --titleColor: rgb(83, 104, 126);
+    --secBGColor: aliceblue;
+    --borderColor: rgb(107, 78, 113);
 }
 /*general website style for bg and borders*/
 * {
@@ -9,7 +12,7 @@
 }
 body {
     border-style: dashed;
-    border-color: rgb(107, 78, 113);
+    border-color: var(--borderColor);
     border-radius:20px;
     padding: 20px;
     margin: 50px;
@@ -17,14 +20,14 @@ body {
 /*header type styling*/
 header, h3, h1 {
     font-family: var(--font);
-    color: rgb(83, 104, 126);
-    background-color: aliceblue;
+    color: var(--titleColor);
+    background-color: var(--secBGColor);
 }
 /*making seperation between header, footer, and body*/
 .addSeperation {
-    background-color: aliceblue;
+    background-color: var(--secBGColor);
     border-style: dashed;
-    border-color: rgb(107, 78, 113);
+    border-color: var(--borderColor);
     border-radius:20px;
     padding: 20px;
     border-width: 2px;
@@ -34,17 +37,17 @@ section div p {
     font-style:oblique;
     color: var(--tColor);
     font-size:large;
-    background-color: aliceblue;
+    background-color: var(--secBGColor);
 }
 /*for title*/
 h1{
     text-align: left;
     font-size:xx-large;
-    background-color: aliceblue;
+    background-color: var(--secBGColor);
 }
 
 h5, ul, li{
-    background-color: aliceblue;
+    background-color: var(--secBGColor);
     font-family: var(--font);
     color: var(--tColor);
     font-style: oblique;
