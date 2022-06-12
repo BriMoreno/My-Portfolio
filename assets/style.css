@@ -40,18 +40,45 @@ section div p {
     background-color: var(--secBGColor);
 }
 /*for title*/
-h1{
+h1 {
     text-align: left;
     font-size:xx-large;
     background-color: var(--secBGColor);
 }
-
-h5, ul, li{
+/*for list and its title*/
+h5{
     background-color: var(--secBGColor);
     font-family: var(--font);
-    color: var(--tColor);
     font-style: oblique;
     text-align: block;
     font-size: small;
+    color: var(--tColor);
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--secBGColor);
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: var(--tColor);
+    text-align: center;
+    font-family: var(--font);
+    background-color: var(--secBGColor);
+    font-style: oblique;
+    font-size: small;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: var(--borderColor);
+    color: var(--secBGColor);
+}
