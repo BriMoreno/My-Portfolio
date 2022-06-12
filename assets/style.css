@@ -10,7 +10,7 @@
 * {
     background-color:rgb(194, 178, 180);
 }
-body {
+body{
     border-style: dashed;
     border-color: var(--borderColor);
     border-radius:20px;
@@ -18,7 +18,7 @@ body {
     margin: 50px;
 }
 /*header type styling*/
-header, h3, h1 {
+header, h3, h1, h6 {
     font-family: var(--font);
     color: var(--titleColor);
     background-color: var(--secBGColor);
@@ -46,25 +46,32 @@ h1 {
     background-color: var(--secBGColor);
 }
 /*for list and its title*/
-h5{
+#navTitle {
     background-color: var(--secBGColor);
     font-family: var(--font);
     font-style: oblique;
     text-align: block;
     font-size: small;
     color: var(--tColor);
+    display:inline-flex;
 }
 
 ul {
+    position:fixed;
+    bottom:0;
+    width: auto;
+    height: auto;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: var(--secBGColor);
+    float:right;
+    display:block;
 }
 
 li {
-    float:left;
+    float:right;
 }
 
 li a {
@@ -75,7 +82,7 @@ li a {
     background-color: var(--secBGColor);
     font-style: oblique;
     font-size: small;
-    padding: 14px 16px;
+    padding: 10px;
 }
 
 li a:hover {
