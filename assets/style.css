@@ -43,12 +43,12 @@ h1{
     background-color: aliceblue;
 }
 
-h5, ul,li{
+h5, ul, li{
     background-color: aliceblue;
     font-family: var(--font);
     color: var(--tColor);
     font-style: oblique;
-    text-align: center;
-    list-style: none;
+    text-align: block;
     font-size: small;
 }
+
