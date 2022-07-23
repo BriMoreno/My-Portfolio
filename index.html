@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Britania Moreno</title>
+    <!-- Bulma for the webpage layout -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="reset" href="./assets/reset.css"/>
     <link rel="stylesheet" href="./assets/style.css"/>
 </head>
 
 <body>
-    <header >
-        <h3 class="title is-3 is-spaced" >Britania Moreno</h3>
-    </header>
-
-    <section>
+<!-- Title bar -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <p class="title">Britania Moreno</p>
+      <p class="subtitle">Portfolio</p>
+    </div>
+  </section>
+  <!-- section with info on me -->
+    <section class=" section">
         <div>
             <h4 class="subtitle is-4 is-spaced">Biography </h4>
              <p>Hello, I'm Britania Moreno. I am from Mexico but I moved to the US when I was almost two years old. Currently 
@@ -24,44 +29,84 @@
         </div>
     </section>
 
+    <!-- images and links to work I have done -->
+  <section class="section">
+    <h4 class="subtitle is-4 is-spaced">Projects</h4>
     <div class="card">
+        <div class="card-image">
+            <figure class="image is-128x128">
+                <p>Password Generator</p>
+                <button onclick="window.location.href='https://github.com/BriMoreno/PW-Creator';">
+                  <img src="https://bulma.io/images/placeholders/128x128.png">
+                </button>
+            </figure>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+            <figure class="image is-128x128">
+              <p>Dog Fact Finder</p>
+              <button onclick="window.location.href='https://github.com/cmullan602/dog-fact-finder';">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+              </button>
+            </figure>
+        </div>
+      </div>
+
+      <div class="card">
         <div class="card-image">
             <figure class="image is-128x128">
                 <img src="https://bulma.io/images/placeholders/128x128.png">
             </figure>
         </div>
       </div>
-   
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-    
+
+      <div class="card">
+        <div class="card-image">
+            <figure class="image is-128x128">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+            <figure class="image is-128x128">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card-image">
+            <figure class="image is-128x128">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </figure>
+        </div>
+      </div>
+  </section>
+
+<footer>
+  <!-- nav bar for links and where to find me in general -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="https://github.com/BriMoreno">GitHub</a>
+
+        <a class="navbar-item" href="https://www.linkedin.com/in/bree-m-1632a923a/">LinkedIn</a>
       
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="https://github.com/BriMoreno">
-              GitHub
-            </a>
-      
-            <a class="navbar-item" href="https://www.linkedin.com/in/bree-m-1632a923a/">
-              LinkedIn
-            </a>
-      
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                Contact
-              </a>
-      
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Contact</a>
+
               <div class="navbar-dropdown">
-                <a class="navbar-item" href="https://tinyurl.com/2s49uma2">
-                  Email
-                </a>
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                
-              </div>
-            </div>
-          </div>
-      
+                <a class="navbar-item" href="https://tinyurl.com/2s49uma2">Email</a>
+                <a class="navbar-item">Jobs</a>
+              </div>    
+        </div>
+      </div>
+    </div>
+</footer>   
 
 </body>
 </html>

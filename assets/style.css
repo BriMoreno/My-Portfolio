@@ -1,0 +1,25 @@
+/* variables for colors, font */
+:root{
+    --bgColor: #BCBD8B;         /* sage green */
+    --borderColor: #717744;     /*spanish bistro*/
+    --textColor: #373D20;       /*kombu green*/
+    --dark: #766153;            /*umber*/
+    --light: #EFF1ED;           /*cultured*/
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+.card {
+    display:inline-flex;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;;
+    padding-top: 20px;
+    border-radius: 10px;
+}
