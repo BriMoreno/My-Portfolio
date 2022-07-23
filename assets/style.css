@@ -7,7 +7,19 @@
     --light: #EFF1ED;           /*cultured*/
 }
 
-.img {
+section{
+    background-color: var(--bgColor);
+}
+
+.hero{
+    background-color: var(--light);
+}
+
+footer{
+    background-color: var(--light);
+}
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,11 +27,28 @@
   }
 
 .card {
-    display:inline-flex;
+    display:inline-block;
     position:relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;;
-    padding-top: 20px;
+    margin:auto;
+    padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    color: var(--textColor);
+    border: solid var(--borderColor);
 }
+
+button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    margin: 4px 4px;
+    transition: 0.3s;
+}
+  
+button:hover {
+    background-color: var(--dark);
+    color: white;
+}
+
