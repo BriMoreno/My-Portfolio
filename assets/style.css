@@ -9,14 +9,17 @@
 
 section{
     background-color: var(--bgColor);
+    color:var(--textColor);
 }
 
 .hero{
     background-color: var(--light);
+    color:var(--textColor);
 }
 
 footer{
     background-color: var(--light);
+    color:var(--textColor);
 }
 
 img {
@@ -39,7 +42,8 @@ img {
 }
 
 button {
-    background-color: #ddd;
+    background-color: var(--light);
+    border-radius: 5px;
     border: none;
     color: black;
     text-align: center;
