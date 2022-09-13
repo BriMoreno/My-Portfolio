@@ -11,35 +11,61 @@ section{
     background-color: var(--bgColor);
     color:var(--textColor);
 }
+.asideBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    padding:5px;
+    border:2px var(--borderColor);
+    border-radius: 10px ;
+}
+.secondary{
+    display: inline-flex;
+    max-width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--bgColor);
+    border: solid var(--borderColor);
+}
 
 .hero{
     background-color: var(--light);
     color:var(--textColor);
+   
+}
+
+.image{
+    display: inline-flex;
+    max-width: 200px;
+    height:200px;
+
+}
+.bigImage{
+    display: inline-block;
+    max-width: 800px;
+    height: 600px;
+
+}
+a {
+    font-size: large;
 }
 
 footer{
     background-color: var(--light);
     color:var(--textColor);
 }
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-.card {
-    display:inline-block;
-    position:relative;
-    margin:auto;
-    padding: 20px;
+#primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:750px;
+    padding: 5px;
     border-radius: 10px;
-    text-align: center;
-    font-size: small;
-    color: var(--textColor);
     border: solid var(--borderColor);
 }
+
 
 button {
     background-color: var(--light);
@@ -52,7 +78,7 @@ button {
 }
   
 button:hover {
-    background-color: var(--dark);
+    background-color: var(--borderColor);
     color: white;
 }
 
