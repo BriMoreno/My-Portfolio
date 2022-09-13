@@ -1,10 +1,21 @@
-# My-Portfolio
----------------------------------------
-Practice making a website by scratch and styling it with CSS
-----------------------------------------
-Use CSS skills such as variables, classes, and Id's to make a visually appealing website
-----------------------------------------
-Practice HTML syntax and readability as well as accessibility
-----------------------------------------
-Be able to make condensed and well commented code
------------------------------------------
+# Practice Portfolio
+
+## Description
+
+An practice of making a portfolic website using HTML and vanilla JavaScript
+
+## How the site should look like
+
+![My gif](portfolio.gif)
+
+## Help
+
+Any advice for improvement on the design or user experience would be appreciated
+
+## Authors
+[BriMoreno](https://github.com/BriMoreno)
+
+
+## Acknowledgments
+
+* [README-Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
